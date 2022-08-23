@@ -17,8 +17,6 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     
     private var dishes = Cart.shared.getDishes()
-
-//    @IBOutlet var viewResult: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

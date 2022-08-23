@@ -36,7 +36,7 @@ class DishCollectionViewCell: UICollectionViewCell {
 struct Constrants {
     static let leftDistanceToView: CGFloat = 20
     static let rightDistanceToView: CGFloat = 20
-    static let minimumLineSpacing: CGFloat = 10 // расстояние между коллекциями
+    static let minimumLineSpacing: CGFloat = 10
     static let topDistanceToView: CGFloat = 30
     static let bottomDistanceToView: CGFloat = 30
     static let width = 180

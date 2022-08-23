@@ -55,9 +55,8 @@ class FirstTableViewController: UITableViewController {
 
 extension UIView {
     func customViewDesing() {
-        self.layer.shadowOpacity = 30 // делает тень на краях картинки
-        self.layer.shadowRadius = 3 // выделяет каждую строку тенью
-//        self.layer.shadowOffset = .zero
+        self.layer.shadowOpacity = 30 
+        self.layer.shadowRadius = 3
         self.layer.shadowOffset = CGSize(width: 0.8, height: 1.1)
     }
 }
