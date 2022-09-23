@@ -25,7 +25,7 @@ class DishCollectionViewCell: UICollectionViewCell {
     
     @IBAction func addToCart() {
         Cart.shared.addDish(dish)
-        cartButton.layer.shadowColor = UIColor.green.cgColor
+        cartButton.layer.shadowColor = UIColor.black.cgColor
         cartButton.setImage(UIImage(named: "true"), for:.normal)
         cartButton.isEnabled = false
         }
